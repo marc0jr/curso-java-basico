@@ -17,7 +17,9 @@ public class Exercicio04 {
 		System.out.println("Informe a 4ª nota: ");
 		double nota4 = scan.nextDouble();
 		
-		System.out.println("A media foi de: " + (nota1+nota2+nota3+nota4)/4);
+		double media = (nota1+nota2+nota3+nota4)/4;
+		
+		System.out.println("A media foi de: " + media);
 		
 	}
 

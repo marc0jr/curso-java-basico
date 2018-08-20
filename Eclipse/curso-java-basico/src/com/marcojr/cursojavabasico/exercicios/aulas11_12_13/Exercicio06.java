@@ -11,10 +11,12 @@ public class Exercicio06 {
 		Scanner scan =  new Scanner(System.in);
 		
 		System.out.println("--Conversão de metros para centímetros--");
-		System.out.println("\n Informe um valor qualquer:");
-		double valor = scan.nextDouble();
-		double conversao = valor*100;
-		System.out.println("O valor em centímetros será de: "+conversao);
+		System.out.println("\n Informe um valor em metros:");
+		double valorMetros = scan.nextDouble();
+		
+		double valorCentimetros = valorMetros*100;
+		
+		System.out.println(valorMetros + " m é igual a " + valorCentimetros + " cm");
 		
 
 	}

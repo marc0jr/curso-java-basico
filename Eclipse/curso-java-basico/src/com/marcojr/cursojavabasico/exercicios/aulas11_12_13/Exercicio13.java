@@ -16,14 +16,18 @@ public class Exercicio13 {
 		int salarioBruto = valorHora*qdtHorasMes;
 		System.out.println("Seu salaro bruto mensal é de: "+salarioBruto);
 		
-		double descontoIR = (salarioBruto * 1.11) - salarioBruto;
-		double pagamentoINSS = (salarioBruto * 1.08) - salarioBruto;
-		double pagamentoSindicado = (salarioBruto * 1.05) - salarioBruto;
+		double descontoIR = (salarioBruto / 100) * 11;
+		double pagamentoINSS = (salarioBruto / 100) * 8;
+		double pagamentoSindicado = (salarioBruto / 100) * 5;
 		double salarioLiquido = salarioBruto - descontoIR - pagamentoINSS - pagamentoSindicado;
+		double totalDescontos = descontoIR + pagamentoINSS + pagamentoSindicado;
 		
-		System.out.println("Você pagou ao INSS: "+pagamentoINSS);
+		System.out.println("Você pagou ao INSS: "+pagamentoINSS+ " reais.");
 		System.out.println("Você pagou ao Sindicato: "+pagamentoSindicado);
+		System.out.println("Foram descontados "+ descontoIR +" reais do IR");
+		System.out.println("O total de descontos foi de: "+ totalDescontos);
 		System.out.println("Seu salario Líquido é de: "+ salarioLiquido);
+		
 		
 		
 

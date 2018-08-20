@@ -13,7 +13,9 @@ public class Exercicio03 {
 	System.out.println("Informe o segundo valor: ");
 	int valor2 = scan.nextInt();
 	
-	System.out.println("A soma dos valores informados foi de: "+ (valor1 + valor2));
+	int resultado = valor1 + valor2;
+	
+	System.out.println("A soma dos valores informados foi de: "+resultado);
 
 	}
 

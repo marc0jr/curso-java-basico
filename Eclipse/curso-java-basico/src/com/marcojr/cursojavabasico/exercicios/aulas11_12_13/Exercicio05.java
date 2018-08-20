@@ -10,7 +10,7 @@ public class Exercicio05 {
 		
 		double raio;
 		double area;
-		double pi = 3.14159;
+		double pi = Math.PI;
 		
 		System.out.println("--Cálculo da área de um círculo--");
 		System.out.println("\n Informe o valor do Raio do Círculo:");
