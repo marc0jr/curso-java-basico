@@ -56,6 +56,7 @@ public class Exercicio23 {
 			System.out.println("Desconto aplicado!");
 		} else {
 			System.out.println("Sem aplicação de desconto!");
+			valorPagar = valorTotal;
 		}
 		
 		System.out.println("\n---CUPOM FISCAL---");
